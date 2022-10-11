@@ -1,0 +1,208 @@
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: 'Gill Sans';
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+
+.navbar .logo span {
+  color: #007AF3;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+a {
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: .3em;
+}
+
+.left-col h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: .2em;
+}
+
+.left-col .primary-cta {
+  text-decoration: none;
+  background-color: #007AF3;
+  color: white;
+  padding: .6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.left-col .second-cta {
+  display: block;
+  margin-top: 1em;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.video-icon {
+  margin-right: .50em;
+}
+
+.features-section {
+  background: #20272E;
+  color: white;
+}
+
+.features-section ul.features-list {
+  margin: 0;
+  padding-left: .1em;
+}
+
+.features-section ul.features-list li {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+.features-section ul.features-list .check {
+  color: #0cd00c;
+}
+
+.comment-section {
+  background: #007AF3;
+}
+
+.comment-section ul li {
+  color: white;
+  background: #006bd6;
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 5em auto;
+  border-radius: 1em;
+}
+
+.comment-section ul li img {
+  width: 5em;
+  height: 5em;
+  border: 5px solid #006bd6;
+  border-radius: 50%;
+  margin-top: -4.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.send-message {
+  background: #007AF3;
+  border-radius: 5em;
+  width: unset;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 5em;
+  display: inline-block;
+  padding: .8em 2em;
+  cursor: pointer;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background-color: #20272E;
+  height: 100vh;
+}
+
+nav .primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+.exit {
+  float: right;
+  margin: .5em;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=Tutorial.css.map */
